@@ -18,13 +18,4 @@ def cacti_number(dArray):
 			if not adjacent:
 				possible += 1
 				dArray[i][j] = 1
-	print(dArray)
 	return possible
-
-
-DArray=[[1, 0, 1, 0, 1],[0,0,0,0,0],[1,0,0,0,0]]
-
-print(cacti_number(DArray))
-
-DArray = [[0,1, 0, 0, 0, 0],[0, 0, 0, 1, 0, 0],[1,0,1,0,0,1]]
-print(cacti_number(DArray))
